@@ -22,6 +22,6 @@ setup(
   	])
   ],
   install_requires=[
-    'cebdict @ git+https://github.com/NoodleSushi/Cebuano-Stemmer.git',
+    'cebdict @ git+https://github.com/NoodleSushi/Cebuano-Dictionary.git',
   ]
 )
