@@ -20,5 +20,8 @@ setup(
   		'cebdict/data/function_words/PART.txt',
   		'cebdict/data/function_words/PRON.txt'
   	])
+  ],
+  install_requires=[
+    'cebdict @ git+https://github.com/NoodleSushi/Cebuano-Stemmer.git',
   ]
 )
