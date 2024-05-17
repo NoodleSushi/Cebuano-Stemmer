@@ -1,4 +1,4 @@
-from utilities import read_file
+from .utilities import read_file
 
 '''
 Fetch prefixes

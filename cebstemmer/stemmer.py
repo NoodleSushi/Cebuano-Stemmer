@@ -2,8 +2,8 @@ from copy import deepcopy
 import string
 import time
 
-from wrappers import Word
-from repos import suffixes, prefixes
+from .wrappers import Word
+from .repos import suffixes, prefixes
 from cebdict import dictionary
 
 prefs = prefixes()

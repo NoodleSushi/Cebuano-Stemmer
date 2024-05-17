@@ -14,5 +14,6 @@ setup(
   classifiers = [],
   install_requires=[
     'cebdict @ git+https://github.com/NoodleSushi/Cebuano-Dictionary.git',
-  ]
+  ],
+  include_package_data=True,
 )
