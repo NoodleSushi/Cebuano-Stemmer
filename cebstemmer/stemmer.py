@@ -98,14 +98,14 @@ def strip_prefix(stem=None):
                 longest_prefix = prefix
             else:
                 temp_stem = deepcopy(stem)
-                temp_stem.root = string.replace(word, prefix, '')
+                temp_stem.root = str.replace(word, prefix, '')
                 temp_stem = lookup(stem=temp_stem)
                 if temp_stem.is_entry:
                     longest_prefix = prefix
                     break
 
     if longest_prefix:
-        stem.root = string.replace(word, longest_prefix, '')
+        stem.root = str.replace(word, longest_prefix, '')
         stem.prefix = longest_prefix
     return stem
 
